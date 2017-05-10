@@ -99,7 +99,6 @@
     width: 80%;
     margin:0 auto 20px;
     cursor: pointer;
-
 }
 
 
@@ -107,28 +106,18 @@
     width: 80%;
     margin:0 auto 20px;
     cursor: pointer;
-
 }
 
-/* Set a min-width of 900px inside this media query */
-
-@media(/* ADD SOME CODE HERE*/) {
-
-    /* add a different width to these classes to make them look better on larger screens */
-
+@media(min-width: 900px) {
     .item {
-       /*Add width*/
+        width:400px;
     }
-
     .full-width-item {
-        /*Add width*/
-
+        width: 800px;
     }
-
 
     .large-item {
-        /*Add width*/
-
+        width: 800px;
     }
 }
 
